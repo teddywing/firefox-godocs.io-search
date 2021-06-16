@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Godocs.io Search",
+	"version": "0.0.1",
+
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"name": "Godocs.io",
+			"search_url": "https://godocs.io/?q={searchTerms}",
+			"keyword": "@godoc",
+			"favicon_url": "https://godocs.io/favicon.ico"
+		}
+	}
+}
