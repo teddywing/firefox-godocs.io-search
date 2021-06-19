@@ -4,6 +4,12 @@
 	"name": "Godocs.io Search",
 	"version": "0.0.1",
 
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "com.teddywing@godocs.io-search"
+		}
+	},
+
 	"chrome_settings_overrides": {
 		"search_provider": {
 			"name": "Godocs.io",
